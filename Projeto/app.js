@@ -1,33 +1,27 @@
 //Item 1
-let dia = prompt('Hoje é qual dia da semana?');
-if (dia == 'Sábado' || dia == 'Domingo'){
-    alert('Bom fim de semana!')
-} else {
-    alert('Boa semana!')
+let contador = 1;
+while (contador < 11){
+    console.log(contador);
+    contador +=1;
 }
 
 //Item 2
-let numeroDigitado = prompt('Digite um número real qualquer')
-if (numeroDigitado >=0){
-    alert(`O número ${numeroDigitado} é positivo!`)
-}else{
-    alert(`O número ${numeroDigitado} é negativo!`)
+contador = 10;
+while (contador > 0){
+    console.log(contador);
+    contador -=1;
 }
 
 //Item 3
-
-numeroDigitado = prompt('Digite qualquer número')
-if (numeroDigitado >= 100){
-    alert('Parabéns, você venceu!');
-}else {
-    alert('Tente novamente para ganhar.')
+let numero = prompt('Escolha um número para a contagem regressiva')
+while (numero > 0){
+    console.log(numero);
+    numero -=1;
 }
-
-//Item 4
-
-let saldo = 'R$ 5.000.000';
-alert(`O saldo da sua conta é ${saldo}`);
-
-//Item 5
-let nome = prompt('Digite seu nome')
-alert('Seja bem vindo(a), ' + nome)
+//Item 3
+numero = prompt('Escolha um número para a contagem progressiva')
+contador = 1;
+while (contador <= numero){
+    console.log(contador);
+    contador +=1;
+}
